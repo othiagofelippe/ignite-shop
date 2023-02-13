@@ -1,7 +1,10 @@
+import { styled } from "@/styles";
+
+const Button = styled("button", {
+  backgroundColor: "$rocketseat",
+  padding: 10,
+});
+
 export default function Home() {
-  return (
-    <div>
-      <p>Hello World</p>
-    </div>
-  )
+  return <Button>Enviar</Button>;
 }
